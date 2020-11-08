@@ -1,0 +1,176 @@
+.header--dark {
+    background-color: rgb(51,57,64);
+    color:rgb(236,236,236) 
+}
+.header__title {
+    display: inline;
+    font-size: 2em;
+    position: static;
+}
+.header__search {
+    display: inline;
+    position: relative;
+    left: 200px
+}
+.search__input {
+    align-items: center;
+    border: 4px solid transparent;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-left: 0 1em;
+    padding-right: 0 1em;
+    position: relative;
+    left: 900px;
+
+
+}
+.search__input:focus .search__input {
+    border-color: whitesmoke;
+    box-shadow: rgb(128, 189, 255) ;
+}
+.search__btn {
+    background-color: rgb(128, 189, 255);
+    position: relative;
+    left: 900px;
+    align-items: center;
+    border: 2px solid transparent;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-left: 0 1em;
+    padding-right: 0 1em;
+   
+
+}
+.main__nav {
+    display: inline-block;
+    background-color: rgb(33,37,41);
+    color: rgb(236,236,236);
+    width: auto;
+    margin: 0;
+    padding:0;
+    list-style: none;
+    
+ 
+}
+.content {
+    font-size: 1em;
+    position:relative;
+    left: 280px;
+    right: 100px;
+    bottom: 600px;
+    display: inline;
+    
+    
+}
+.main__breadcrumb {
+    background-color: rgb(233,236,239);
+    border-radius: 10em;
+    padding-top: 1em;
+    padding-bottom: 1em ;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+}
+
+
+.nav__ul {
+list-style-type: none;
+  margin: auto;
+  padding: 70px;
+  width: 70px;
+}
+li a {
+    display: block;
+    
+  }
+   .main__cards {
+       display: flex;
+
+   }
+   .main__cards > div {
+    
+       width: 280px;
+       margin: 30px;
+       text-align: center;
+       line-height: 75px;
+       
+   }
+
+
+.main__card--blue {
+    background-color: rgb(0,123,255);
+    border-radius: 1em;
+    
+    
+
+}
+.main__card--yellow {
+    background-color: rgb(255,193,7);
+    border-radius: 1em;
+}
+.main__card--green {
+    background-color: rgb(40,167,69);
+    border-radius: 1em;
+}
+.main__card--red {
+    background-color: rgb(220,53,69);
+    border-radius: 1em;
+}
+
+.fa-area-chart {
+    display: inline;
+    position: relative;
+    right: 50px;
+    top: 40px;
+   
+
+}
+.fa-tachometer {
+    display: inline;
+    position: relative;
+    right: 50px;
+    top: 40px;
+   
+
+}
+.fa-windows {
+    display: inline;
+    position: relative;
+    right: 50px;
+    top: 40px;
+   
+
+}
+.fa-bookmark {
+    display: inline;
+    position: relative;
+    right: 50px;
+    top: 40px;
+   
+
+}
+.fa-table {
+    display: inline;
+    position: relative;
+    right: 50px;
+    top: 40px;
+   
+
+}
+a:link {
+    color: rgb(236,236,236);
+}
+a:visited {
+    color: rgb(236,236,236);
+}
+a:hover{
+    color: rgb(236,236,236);
+}
+a:active {
+    color: rgb(236,236,236);
+}
+
+.card__top{
+    border-top-left-radius: 25em;
+    border-top-left-radius: 25em;
+    padding-top: 25em;
+}
